@@ -48,5 +48,5 @@ wat hier gebeurt?*
 Overigens kan een reeks ook verschillende datatypes bevatten. Er kunnen
 integers, floats, strings door elkaar heen staan.  
 
-
+len('februari')
 **Vraag:** Wat gebeurt er als we een lijst opnemen in een lijst?

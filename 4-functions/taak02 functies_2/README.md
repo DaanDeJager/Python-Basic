@@ -35,6 +35,19 @@ Geeft de gebruiker als input 37 C (of
 37C, of 37 c, of 37c) dan wordt omgerekend naar Fahrenheit.  
 Geeft de gebruiker als input 100 F (of 100F, of 100f, of 100 f) dan wordt de
 input omgerekend naar Celcius.
+temp = input("input temp:")
+degree = int(temp[:-1])
+convert = temp[-1]
+
+if convert.upper() == "C":
+  result = (9 * degree) / 5 + 32
+  graden = "Fahrenheit"
+elif convert.upper() == "F":
+  result = (degree - 32) * 5 / 9
+  graden = "Celsius"
+
+print("The temp", graden, "is", result,)
+
 
 #### Decompositie (uiteenrafelen in verschillende stappen die uitgevoerd moeten worden)
 

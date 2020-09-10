@@ -69,7 +69,7 @@ list in omgekeerde volgorde weergeeft.
 We beginnen met de definitie van de functie. Onthoudt dat functies altijd aan
 het begin van jouw programma gedefinieerd moeten worden.  
 **Vraag**: Kun je bedenken waarom dat zo is?
-
+zodat het weet dat het een function is
 De code:
 
 ```python
@@ -91,7 +91,7 @@ keerdelistom(a)
 We gebruiken hier trouwens nog een functie: reversed(). Deze is één van de
 built-in functies van Python.  
 **Vraag**: Leg uit wat reversed() precies doet.
-
+het reversed de string 
 ## Opdracht
 
 **Opdracht**: Maak een stukje code waarin:
@@ -116,6 +116,10 @@ staat dus (bijna altijd) onderaan.
 
 *\* De formule voor deze berekening kwam in de README van datatypes aan de
 orde.*
+
+celsius = float(input("Enter temperature in celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(str(celsius) + 'Celsius is: ' + str(fahrenheit)  + ' Fahrenheit')
 
 ### Leerdoelen
 

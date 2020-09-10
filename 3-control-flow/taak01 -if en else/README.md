@@ -109,13 +109,22 @@ gaat het programma eerst naar het bijbehorende code blokje en dan meteen verder
 met het vervolg van het programma.
 
 Na een TRUE worden er dus geen andere condities meer getest.
+a = 5
+if a == 5:
+ print('het is evenveel')
+else
+ print('het is niet evenveel')
 
 **Vraag**: Werkt dat ook zo met meerdere IF statements?
+
+ja
 
 **Opdracht**: Teken een flowdiagram van het programma waarbij in plaats van
 elif, if statements worden gebruikt.  
 Ook in dat programma worden 4 condities gebruikt. Net als in het diagram
 hiernaast.
+
+
 
 **Opdracht**: Schrijf code die:
 
@@ -128,7 +137,15 @@ hiernaast.
     uitgevoerd.
 
 - Maak hierbij gebruik van elif.
-
+a = 2
+if a == 1:
+ print("a is gelijk aan"+str(a))
+elif a == 2:
+ print("a is niet gelijk aan"+str(a))
+elif a == 3:
+ print("a is niet gelijk aan"+str(a))
+elif a == 4:
+ print("a is niet gelijk aan"+str(a))
 ### Leerdoelen
 
 - ik ken het verschil tussen if en else
