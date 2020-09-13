@@ -76,10 +76,12 @@ naar Celsius. Python behandelt zo’n regel als een stukje code en evalueert de
 regel als een expressie. In een Python programma zou je schrijven:  
 gradencelsius= (gradenfahrenheit – 32) \* 5/9.
 
-Omgekeerd, van °C naar °F, is de formule: °F = °C \* 9/5 + 32.
+Omgekeerd, van °C naar °F, is de formule: °F = °C \* 9/5 + 32. 
 
 **Opdracht**: Laat Python dat maar eens uitrekenen voor een temperatuur van 34
 °C.
+
+34 * 9/5 + 32
 
 ### Meer over Ints en Floats
 
@@ -218,6 +220,10 @@ opzoeken. Die is anders dan in javascript of PHP. (Zie onderaan bij
 
 Het resultaat lijkt dan hierop. (Jij hebt misschien een andere string, maar
 het werkt hetzelfde.)
+A = 'IetsAnders'
+
+for i in A:
+    print(i)
 
 ```python
 i

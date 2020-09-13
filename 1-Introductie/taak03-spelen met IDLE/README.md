@@ -65,11 +65,13 @@ Het is natuurlijk ook mogelijk om overal een string van te maken.
 
 - Doe dat eens voor een integer en een float.
  Zijn hier restricties voor het getal dat je wilt converteren?
-
+Nee
 **Opdracht:**
 
 Neem deze twee getallen: 162.48 en 13.54. Deel 162.48 door 13.45. Maak een
 integer van de uitkomst. En maak daar vervolgens een string van.
+
+162.48 / 13.45
 
 Ondertussen wordt het handiger om een programmafile te maken dan om alles
 interactief in IDLE te doen. We maken dan een tekstfile aan die we kunnen editen

@@ -89,7 +89,7 @@ te passen op het voorbeeld hierboven.)
 
 1. Voeg een statement toe waarin je één van de hoofdsteden wijzigt in iets
     anders.
-
+Provinciehoofdsteden['Groningen'] = 'Niet Groningen'
 ## Leerdoelen
 
 - Ik weet wat dictionaries zijn
