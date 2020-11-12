@@ -89,3 +89,8 @@ na 24 uur begint de klok weer opnieuw: na 23:59:59 komt dan 00:00:00
 Alle externe bronnen die je nodig hebt zijn in de vorige taken voorbijgekomen.
 
 You are on your own!
+
+
+from datetime import datetime, timedelta
+x = datetime.now() + timedelta(seconds=3)
+x += timedelta(seconds=3)
